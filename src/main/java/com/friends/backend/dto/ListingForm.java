@@ -18,7 +18,6 @@ import java.time.LocalDateTime;
 @Setter
 public class ListingForm {
 
-
     @NotBlank(message = "Time is required")
     @NotNull
     private Location location;
